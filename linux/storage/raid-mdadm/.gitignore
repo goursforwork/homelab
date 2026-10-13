@@ -1,0 +1,12 @@
+# Don't commit locally created virtual disk images or OS-generated artifacts.
+*.img
+*.raw
+*.qcow2
+*.vdi
+*.vmdk
+*.iso
+*.swap
+*.swp
+.DS_Store
+__pycache__/
+# Keep personal notes and screenshots in evidence/ deliberately if desired.
